@@ -1,17 +1,21 @@
 # 🎮 Number Guessing Game in C
 
-A beginner-friendly command-line game built in C where the player tries to guess a randomly generated number. The game provides hints after every guess and tracks the total number of attempts, making it a great project for learning core C programming concepts.
+A beginner-friendly command-line game built using the C programming language. The player selects a difficulty level and tries to guess a randomly generated number while receiving hints after each guess. The game also tracks the total number of attempts taken to win.
 
 ---
 
 ## ✨ Features
 
+* 🎯 Three difficulty levels
+
+  * Easy (1–50)
+  * Medium (1–100)
+  * Hard (1–500)
 * 🎲 Random number generation
-* 📥 Interactive user input
-* 📉 "Too Low" and 📈 "Too High" hints
-* 🎯 Attempt counter
+* 📈 "Too High" and 📉 "Too Low" hints
+* 🔢 Attempt counter
 * 🎉 Winning message with total attempts
-* 💻 Clean command-line interface
+* 💻 Interactive command-line interface
 
 ---
 
@@ -68,6 +72,15 @@ gcc main.c -o game
 =================================
    Number Guessing Game 🎮
 =================================
+
+Choose Difficulty
+
+1. Easy (1 - 50)
+2. Medium (1 - 100)
+3. Hard (1 - 500)
+
+Enter your choice: 2
+
 Guess a number between 1 and 100.
 
 Enter your guess: 25
@@ -88,22 +101,23 @@ You guessed the number in 3 attempt(s).
 
 * Variables and Data Types
 * User Input and Output
-* Conditional Statements
-* While Loops
+* Conditional Statements (`if`, `else if`)
+* `while` Loops
+* `switch` Statements
 * Random Number Generation (`rand()` and `srand()`)
 * Time Library (`time.h`)
 * Counter Variables
 
 ---
 
-## 🚀 Future Improvements
+## 🚀 Planned Improvements
 
-* Difficulty Levels (Easy, Medium, Hard)
-* Play Again Option
-* Input Validation
-* High Score Tracking
-* Scoreboard Saved to a File
-* Timer-Based Challenge Mode
+* Limited attempts based on difficulty
+* Play Again option
+* Input validation
+* High score tracking
+* Scoreboard using file handling
+* Cleaner terminal interface
 
 ---
 
@@ -111,4 +125,4 @@ You guessed the number in 3 attempt(s).
 
 **Daksh Kumawat**
 
-Learning C programming, problem solving, and software development by building practical projects and documenting the learning journey on GitHub.
+Learning C programming and software development by building practical projects and sharing the journey on GitHub.
