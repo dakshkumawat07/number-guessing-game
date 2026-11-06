@@ -43,7 +43,7 @@ number-guessing-game/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/number-guessing-game.git
+git clone https://github.com/dakshkumawat07/number-guessing-game.git
 ```
 
 ### 2. Navigate to the project directory
